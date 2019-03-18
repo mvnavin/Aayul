@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/text_view_selected2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do You Know The Soil Type?"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <RadioGroup
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/myRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:background="#abf234"
+        android:checkedButton="@+id/sound"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="192dp">
+
+        <RadioButton
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No" />
+
+
+    </RadioGroup>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

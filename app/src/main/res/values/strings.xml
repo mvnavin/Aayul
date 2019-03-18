@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aayul</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ChoiceText">Choose one of the radio buttons below</string>
+    <string name="Sound">Yes</string>
+    <string name="Vibration">No</string>
+
+</resources>
